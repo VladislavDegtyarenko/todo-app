@@ -8,7 +8,13 @@ module.exports = {
     '@wemake-services/javascript',
     '@wemake-services/typescript/recommended',
   ],
-  ignorePatterns: ['dist', '.github', '.eslintrc.cjs', 'src/components/ui'],
+  ignorePatterns: [
+    'dist',
+    '.github',
+    '.eslintrc.cjs',
+    'src/components/ui',
+    'vite.config.ts',
+  ],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
